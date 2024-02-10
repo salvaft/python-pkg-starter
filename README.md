@@ -16,4 +16,4 @@ my_project/
 ├── .gitignore
 ```
 
-If you want a multi-package project you can check the [src layout](https://packaging.python.org/en/latest/tutorials/packaging-projects/#a-simple-project) or [namespace packages](https://github.com/tweag/python-monorepo-example/)
+If you want a multi-package project you can check the [src layout](https://packaging.python.org/en/latest/tutorials/packaging-projects/#a-simple-project) or [namespace packages](https://github.com/tweag/python-monorepo-example/), and [mine](https://github.com/salvaft/python-monorepo-starter)
