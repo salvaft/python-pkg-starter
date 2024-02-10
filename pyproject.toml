@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "package"
+version = "0.1.0"
+description = "Starter template"
+authors = ["Salvador Ferradás <sftpo@pm.me>"]
+repository = "https://github.com/salvaft/python-pkg-starter"
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+]
+
+# A list of PyPI trove classifiers that describe the project. Optional
+# Using packages disables the package auto-detection feature meaning you have to explicitly specify the “default” package.
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+mypy = "^0.910"
+pylint = "^2.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

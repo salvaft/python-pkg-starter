@@ -1,0 +1,21 @@
+[MASTER]
+
+
+[MESSAGES CONTROL]
+# Enable additional checks
+enable = unused-import, logging-format-interpolation
+
+[FORMAT]
+# Set the code format to display
+max-line-length = 88
+ignore = E203, E266, E501, W503
+
+[TYPECHECK]
+# Enable type checking (requires Python 3.5+)
+# This requires the `mypy` package to be installed
+# pip install mypy
+# requires maven python
+# in case of lint error "https://github.com/PyCQA/pylint/issues/4233"
+# pip install pylint
+# or conda install pylint
+disable = missing-module-docstring,missing-function-docstring,missing-class-docstring
